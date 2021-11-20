@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Local Government and District in Gambia (dropdown)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    />
+
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container h-100">
+      <div class="row align-items-center h-100">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <center>
+            <form>
+              <div class="form-group">
+                <label class="control-label">Local Government Area </label>
+                <select
+                  onchange="toggleDistrict(this);"
+                  name="lga"
+                  id="lga"
+                  class="form-control"
+                >
+                  <option value="" selected="selected">- Select -</option>
+                  <option value="Banjul LGA">Banjul LGA</option>
+                  <option value="Basse LGA">Basse LGA</option>
+                  <option value="Brikama LGA">Brikama LGA</option>
+                  <option value="Janjanbureh LGA">Janjanbureh LGA</option>
+                  <option value="Kanifing LGA">Kanifing LGA</option>
+                  <option value="Kerewan LGA">Kerewan LGA</option>
+                  <option value="Kuntaur LGA">Kuntaur LGA</option>
+                  <option value="Mansakonko LGA">Mansakonko LGA</option>
+                 
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="control-label">District</label>
+                <select
+                  name="district"
+                  id="district"
+                  class="form-control select-district"
+                  required
+                >
+                </select>
+              </div>
+            </form>
+          </center>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/district.js"></script>
+  </body>
+</html>
