@@ -13,7 +13,7 @@
     let lga = target.value,                                                         // Get value of lga
       selectDistrictOption = ["Select District..."],                                            // Define this once so as not to repeat it multiple times
       districtList = { 
-		  Basse LGA:[
+		  Basse :[
 
 "Basse Fulladu East ",
 "Jimara ",
@@ -23,7 +23,7 @@
 "Wuli East ",
 "Wuli West",
 ] ,
-Janjanbureh LGA:[
+Janjanbureh :[
 
 
 
@@ -32,7 +32,7 @@ Janjanbureh LGA:[
 "Niamina Dankunku", 
 "Niamina East", 
 "Niamina West" ],
-Kuntaur LGA:[
+Kuntaur :[
 
 "Lower Saloum ",
 "Niani ",
@@ -41,19 +41,19 @@ Kuntaur LGA:[
 "Upper Saloum" ],
 
 
-Banjul LGA:[
+Banjul :[
 
 
 "Banjul Central", 
 "Banjul North ",
 "Banjul South" 
 ],
-Kanifing LGA:[
+Kanifing :[
 
 
 "Kanifing" ],
 
-Brikama LGA:[
+Brikama :[
 
 
 "Foni Bintang-Karenai ",
@@ -67,7 +67,7 @@ Brikama LGA:[
 "Kombo South" ,
 ],
 
-Kerewan LGA:[
+Kerewan :[
 
 "Central Baddibu ",
 "Illiasa" ,
@@ -77,7 +77,7 @@ Kerewan LGA:[
 "Sabach Sanjal ",
 "Upper Niumi "
 ],
-Mansakonko LGA:[
+Mansakonko :[
 
 
 "Jarra Central ",
